@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="Sunbeach Hotels Home" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="home.css">
+
+<p align="right"><select name="currency" id="currency">
+  <option value="GBP £">GBP - £</option>
+  <option value="USD $">USD - $</option>
+  <option value="EUR €">EUR - €</option>
+</select>
+<input type="button" value="Register" />
+<input type="button" value="SignIn" /></p>
+
+<div class="topnav"> 
+  <b href="home.html"> <img border="0" alt="Logo" src="images\logo.jpg" ></b> 
+  <a href="iFrames\hotels.html" target="iframe_search">Hotels</a>
+  <a href="iFrames\flights.html" target="iframe_search">Flights</a>
+  <a href="iFrames\flightHotel.html" target="iframe_search">Flight+Hotel</a>
+  <a href="iFrames\car.html" target="iframe_search">Car Hire</a>
+  <a href="iFrames\insurance.html" target="iframe_search">Insurance</a>
+  <a href="#help">Help</a>
+</div>
+<p></p>
+</head>
+<body>
+  
+<iframe src="iframes\hotels.html" frameBorder="0" name="iframe_search" height="420px" width="50%" title="SearchFrame"></iframe>
+
+<div class="slideshow-container">
+
+<div class="slideshow-container mySlides fade">
+  <div class="numbertext">1 / 10</div>
+  <img src="images\slideshow\rome.jpg" style="width:100%">
+  <div class="text">See the ancient architecture of classic Rome!</div>
+</div>
+
+<div class="slideshow-container mySlides fade">
+  <div class="numbertext">2 / 10</div>
+  <img src="images\slideshow\dublin.jpg" style="width:100%">
+  <div class="text">Enjoy a Guiness or two in Temple Bar Dublin!</div>
+</div>
+
+<div class="slideshow-container mySlides fade">
+  <div class="numbertext">3 / 10</div>
+  <img src="images\slideshow\edinburgh.jpg" style="width:100%">
+  <div class="text">Visit the rolling hills in the city of Edinburough!</div>
+</div>
+
+<div class="slideshow-container mySlides fade">
+  <div class="numbertext">4 / 10</div>
+  <img src="images\slideshow\prague.jpg" style="width:100%">
+  <div class="text">Relax and explore historic Prague!</div>
+</div>
+
+<div class="slideshow-container mySlides fade">
+  <div class="numbertext">5 / 10</div>
+  <img src="images\slideshow\madrid.jpg" style="width:100%">
+  <div class="text">Experience the vibe of exciting Madrid!</div>
+</div>
+
+<div class="slideshow-container mySlides fade">
+  <div class="numbertext">6 / 10</div>
+  <img src="images\slideshow\berlin.jpg" style="width:100%">
+  <div class="text">Take a stroll in Berlin by night!</div>
+</div>
+
+<div class="slideshow-container mySlides fade">
+  <div class="numbertext">7 / 10</div>
+  <img src="images\slideshow\london.jpg" style="width:100%">
+  <div class="text">Shop till you drop with a London weekend break!</div>
+</div>
+
+<div class="slideshow-container mySlides fade">
+  <div class="numbertext">8 / 10</div>
+  <img src="images\slideshow\newyork.jpg" style="width:100%">
+  <div class="text">See the beautiful NewYork skyline!</div>
+</div>
+
+<div class="slideshow-container mySlides fade">
+  <div class="numbertext">9 / 10</div>
+  <img src="images\slideshow\paris.jpg" style="width:100%">
+  <div class="text">Experience springtime in Paris!</div>
+</div>
+
+<div class="slideshow-container mySlides fade">
+  <div class="numbertext">10 / 10</div>
+  <img src="images\slideshow\bangkok.jpg" style="width:100%">
+  <div class="text">Sample the culinary Delights of Bangkok!</div>
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}  
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+</script>
+
+<p></p>
+<h2><style>h2{text-align: center}</style><a href="https://www.gov.uk/guidance/travel-advice-novel-coronavirus" target="_blank" rel="noopener noreferrer">COVID Information - Click here for latest government travel guidance (Opens in new tab)</a></h2>
+
+<div>
+<iframe src="iframes\TR\TR1.html" frameBorder="0" name="iframe_topRated1" height="580px" width="24.5%" title="TopRated1"></iframe>
+<iframe src="iframes\TR\TR2.html" frameBorder="0" name="iframe_topRated2" height="580px" width="25%" title="TopRated2"></iframe>
+<iframe src="iframes\TR\TR3.html" frameBorder="0" name="iframe_topRated3" height="580px" width="25%" title="TopRated3"></iframe>
+<iframe src="iframes\TR\TR4.html" frameBorder="0" name="iframe_topRated4" height="580px" width="24.5%" title="TopRated4"></iframe>
+</div>
+
+<div>
+<iframe src="iframes\TC\TC1.html" frameBorder="0" name="iframe_topCity1" height="500px" width="25%" title="TopCity1"></iframe>
+<iframe src="iframes\TC\TC2.html" frameBorder="0" name="iframe_topCity2" height="500px" width="25%" title="TopCity2"></iframe>
+<iframe src="iframes\TC\TC3.html" frameBorder="0" name="iframe_topCity3" height="500px" width="25%" title="TopCity3"></iframe>
+<iframe src="iframes\TC\TC4.html" frameBorder="0" name="iframe_topCity4" height="500px" width="24%" title="TopCity4"></iframe>
+</div>
+
+<div>
+<iframe src="iframes\TL\TL1.html" frameBorder="0" name="iframe_topRated1" height="420px" width="20%" title="TopRated1"></iframe>
+<iframe src="iframes\TL\TL2.html" frameBorder="0" name="iframe_topRated2" height="420px" width="19.5%" title="TopRated2"></iframe>
+<iframe src="iframes\TL\TL3.html" frameBorder="0" name="iframe_topRated3" height="420px" width="19.5%" title="TopRated3"></iframe>
+<iframe src="iframes\TL\TL4.html" frameBorder="0" name="iframe_topRated4" height="420px" width="19.5%" title="TopRated4"></iframe>
+<iframe src="iframes\TL\TL5.html" frameBorder="0" name="iframe_topRated4" height="420px" width="20%" title="TopRated4"></iframe>
+</div>
+
+</body>
+
+<footer>
+<p>(C)Copyright - Group 10 - Ulster University COM458 2021<p>
+</html>
