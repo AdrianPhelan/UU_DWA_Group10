@@ -1,0 +1,148 @@
+
+{
+  "hotels": [
+    {
+      "name": "Thistle Piccadilly",
+      "city": "London",
+      "country": "UK",
+      "ratingN": 8.4,
+      "ratingT": "Very Good",
+      "text": "the written text about the hotel",
+      "nRooms": 3,
+      "price": 98,
+      "id": 1001,
+      "url": "www.google.co.uk",
+      "image": null
+    },
+    {
+      "name": "Hotel Cafe Royal",
+      "city": "London",
+      "country": "UK",
+      "ratingN": 9.4,
+      "ratingT": "Superb",
+      "text": "the written text about the hotel",
+      "nRooms": 2,
+      "price": 398,
+      "id": 1002,
+      "url": "www.google.co.uk",
+      "image": null
+    },
+    {
+      "name": "Sofitel St James",
+      "city": "London",
+      "country": "UK",
+      "ratingN": 9.3,
+      "ratingT": "Superb",
+      "text": "the written text about the hotel",
+      "nRooms": 5,
+      "price": 287,
+      "id": 1003,
+      "url": "www.google.co.uk",
+      "image": null
+    },
+    {
+      "name": "Radisson Blue Edwardian",
+      "city": "London",
+      "country": "UK",
+      "ratingN": 9.0,
+      "ratingT": "Superb",
+      "text": "the written text about the hotel",
+      "nRooms": 3,
+      "price": 157,
+      "id": 1004,
+      "url": "www.google.co.uk",
+      "image": null
+    },
+    {
+      "name": "Carnaby Inn",
+      "city": "London",
+      "country": "UK",
+      "ratingN": 9.0,
+      "ratingT": "Fabulous",
+      "text": "the written text about the hotel",
+      "nRooms": 4,
+      "price": 189,
+      "id": 1005,
+      "url": "www.google.co.uk",
+      "image": null
+    },
+    {
+      "name": "Dilly Picadilly",
+      "city": "London",
+      "country": "UK",
+      "ratingN": 8.8,
+      "ratingT": "Fabulous",
+      "text": "the written text about the hotel",
+      "nRooms": 10,
+      "price": 187,
+      "id": 1006,
+      "url": "www.google.co.uk",
+      "image": null
+    },
+    {
+      "name": "Karma Sanctum Soho",
+      "city": "London",
+      "country": "UK",
+      "ratingN": 8.5,
+      "ratingT": "Very Good",
+      "text": "the written text about the hotel",
+      "nRooms": 7,
+      "price": 185,
+      "id": 1007,
+      "url": "www.google.co.uk",
+      "image": null
+    },
+    {
+      "name": "Z Hotel Tottenhame Court Road",
+      "city": "London",
+      "country": "UK",
+      "ratingN": 8.7,
+      "ratingT": "Fabulous",
+      "text": "the written text about the hotel",
+      "nRooms": 6,
+      "price": 70,
+      "id": 1008,
+      "url": "www.google.co.uk",
+      "image": null
+    },
+    {
+      "name": "Corinthia London",
+      "city": "London",
+      "country": "UK",
+      "ratingN": 9.3,
+      "ratingT": "Superb",
+      "text": "the written text about the hotel",
+      "nRooms": 4,
+      "price": 473,
+      "id": 1009,
+      "url": "www.google.co.uk",
+      "image": null
+    },
+    {
+      "name": "Treehous Hotel",
+      "city": "London",
+      "country": "UK",
+      "ratingN": 9.0,
+      "ratingT": "Superb",
+      "text": "the written text about the hotel",
+      "nRooms": 8,
+      "price": 239,
+      "id": 1010,
+      "url": "www.google.co.uk",
+      "image": null
+    },
+    {
+      "name": "Claridges Hotel",
+      "city": "London",
+      "country": "UK",
+      "ratingN": 9.4,
+      "ratingT": "Superb",
+      "text": "the written text about the hotel",
+      "nRooms": 1,
+      "price": 578,
+      "id": 1011,
+      "url": "www.google.co.uk",
+      "image": null
+    }
+  ]
+}
